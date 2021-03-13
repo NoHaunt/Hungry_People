@@ -1,0 +1,676 @@
+* {
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.timework {
+    position: absolute;
+    z-index: 101;
+    left: 84px;
+    top: 456px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    transform: rotate(-90deg);
+    margin-left: -110px;
+    color: white;
+}
+
+.social {
+    z-index: 101;
+    position: absolute;
+    right: 90px;
+    top: 331px;
+    max-width: 62px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social img {
+    margin: 10px 0;
+}
+
+header {
+    height: 800px;
+    display: block;
+    background-image: url(../images/header-bg.jpg)
+}
+
+.container .header_menu {
+    color: white;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_menu li {
+    margin-top: 50px;
+    height: 99px;
+}
+
+.logo {
+    margin-top: 25px;
+    width: 150px;
+}
+
+.container .header_menu a {
+    color: white;
+}
+
+.header_bottom {
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.headline_restaurant {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6em;
+    margin-left: 7px;
+}
+
+.title_hungrypeople {
+    margin: 10px 0 30px;
+    font-size: 70px;
+}
+
+#line1,
+#line2,
+#line3,
+#line4,
+#line5,
+#line6,
+#lineT1,
+#lineT2,
+#lineT3,
+#lineS1,
+#lineS2,
+#lineS3,
+#lineE1,
+#lineE2,
+#lineE3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+#line1 {
+    top: -200px;
+    left: 25px;
+    width: 510px;
+    height: 1px;
+    position: absolute;
+}
+
+#line2 {
+    top: -200px;
+    right: 25px;
+    width: 510px;
+    height: 1px;
+    position: absolute;
+}
+
+#line3 {
+    top: -96px;
+    left: 50%;
+    width: 1px;
+    height: 472px;
+    position: absolute;
+}
+
+#line4 {
+    left: 170px;
+    width: 1px;
+    height: 700px;
+    top: -199px;
+    position: absolute;
+}
+
+#line5 {
+    right: 170px;
+    width: 1px;
+    height: 700px;
+    top: -199px;
+    position: absolute;
+}
+
+#line6 {
+    bottom: -61px;
+    left: 50%;
+    width: 1px;
+    height: 66px;
+    position: absolute;
+}
+
+.Yblock {
+    width: 60px;
+    height: 5px;
+    top: 160px;
+    left: 47.7%;
+    border-radius: 10px;
+    position: absolute;
+    background: #e9c300;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.buttons_header {
+    margin-top: 100px;
+}
+
+.left_button {
+    background: #e9c300;
+    margin-right: 20px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+
+.right_button {
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    width: 200px;
+    height: 60px;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    background: #E8C300;
+    border-radius: 5px;
+}
+
+.social img:hover {
+    cursor: pointer;
+}
+
+.arrow_header {
+    margin-top: 90px;
+}
+
+.aboutus_main {
+    margin: 100px auto;
+    max-width: 1280px;
+    display: flex;
+}
+
+.aboutus_text {
+    max-width: 1200px;
+    padding: 100px 10px 10px;
+    text-align: center;
+}
+
+.text_headline {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.aboutus_Yblock {
+    top: 150px;
+    left: 47.7%;
+}
+
+.text_info {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.ourteam_main {
+    height: 675px;
+    background-image: url(../images/ourTeam-bg.jpg);
+    margin: 100px 0;
+    z-index: -20;
+}
+
+.ourteam_headline {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    padding: 40px;
+}
+
+.ourteam_text {
+    color: white;
+    margin-right 25px;
+    max-width: 600px;
+    text-align: center;
+    padding: 100px 10px 100px;
+}
+
+.ourteam {
+    max-width: 1430px;
+    margin: auto;
+    display: flex;
+}
+
+#lineT1 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    left: 200px;
+    z-index: -1;
+}
+
+#lineT2 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    left: 50%;
+    z-index: -1;
+}
+
+#lineT3 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    right: 200px;
+    z-index: -1;
+}
+
+input,
+select,
+textarea {
+    background: #e5e5e5;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.book_headline {
+    margin-bottom: 30px;
+}
+
+.book_form {
+    text-align: center;
+    margin-top: 55px;
+    max-width: 1200px;
+}
+
+.Yblock_table {
+    top: 60px;
+    left: 317px;
+}
+
+.booktable {
+    display: flex;
+    height: 530px;
+}
+
+.book_form .form select,
+.book_form .form input {
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 0px;
+    /*broken padding*/
+    width: 271px;
+    height: 60px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.book_btn {
+    width: 566px;
+    height: 60px;
+    margin-top: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+
+.book_bottom {
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.specialties_main {
+    background-image: url(../images/specialty-bg.jpg);
+    height: 675px;
+    z-index: -100;
+    margin-top: 50px;
+}
+
+.spec_headline {
+    padding-bottom: 10px;
+}
+
+#lineS1 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    left: 200px;
+    z-index: -1;
+}
+
+#lineS2 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    left: 50%;
+    z-index: -1;
+}
+
+#lineS3 {
+    position: absolute;
+    width: 1px;
+    height: 675px;
+    right: 200px;
+    z-index: -1;
+}
+
+.spec_dots {
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wdot {
+    background-color: white;
+}
+
+.dots {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.menu_headline {
+    margin-bottom: 40px;
+}
+
+.Yblock_menu {
+    top: 50px;
+}
+
+.menu_info {
+    max-width: 570px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.menu_table {
+    margin: 30px 0px;
+}
+
+.name_table {
+    margin: 50px 0;
+}
+
+.name_table a {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    color: black;
+}
+
+.noborder {
+    border-right: 0 !important;
+}
+
+.table_sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table_sides p {
+    margin-bottom: 40px;
+    max-width: 390px;
+    font-size: 18px;
+    line-height: 18px;
+    color: ;
+}
+
+.ocupacity {
+    opacity: 0.5;
+    font-size: 14px
+}
+
+.events {
+    margin-top: 100px;
+    background-image: url(../images/specialty-bg.jpg);
+    height: 675px;
+}
+
+.events_headline {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.event_show {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.left_event,
+.right_event {
+    width: 700px;
+}
+
+.events .container {
+    max-width: 1500px;
+}
+
+.event_contact {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 2;
+}
+
+#lineE1 {
+    height: 675px;
+    position: absolute;
+    width: 1px;
+    left: 50%;
+    top: 0;
+}
+
+#lineE2 {
+    height: 675px;
+    position: absolute;
+    width: 1px;
+    right: 0px;
+    top: 0;
+}
+
+#lineE3 {
+    height: 675px;
+    position: absolute;
+    width: 1px;
+    left: 0px;
+    top: 0;
+}
+
+.gallery {
+    display: flex;
+    margin: 0;
+}
+
+.gimp {
+    width: 25%
+}
+
+.gimp img {
+    width: 100%
+}
+
+.contacts {
+    margin: 100px 0;
+}
+
+.contacts_headline {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.Yblock_contacts {
+    top: 60px;
+}
+
+.contacts_text {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 520px;
+    margin: auto;
+    text-align: center;
+}
+
+.contacts_form {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-top: 30px;
+}
+
+.contacts_form input {
+    width: 390px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0, 5);
+}
+
+.contacts_form textarea {
+    width: 1218px;
+    height: 120px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contact_btn {
+    width: 620px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-right: 17px;
+}
+
+.contacts_info {
+    height: 60px;
+    display: flex;
+    margin-left: 7px;
+    align-items: center;
+}
+
+.info_address,
+.info_phone,
+.info_email {
+    display: flex;
+}
+
+.info_text {
+    font-size: 13px;
+    line-height: 14px;
+    color: black;
+    padding: 0 5px;
+}
+
+.map {
+    background-image: url(../images/mapsdirectionspart.jpg);
+    height: 475px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+}
+
+.footer_text {
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
